@@ -15,56 +15,65 @@
     </head>
     <body>
         <header>
-            <a href="WebStudio">WebStudio</a>
-            <nav>
+            <div class="logo">
+                <a class="link" href="WebStudio"
+                    ><span class="highlight">Web</span>Studio</a
+                >
+            </div>
+
+            <nav class="nav-items">
                 <ul>
-                    <li><a href="Agencja">Agencja</a></li>
+                    <li><a class="link" href="Agencja">Agencja</a></li>
                     <li>
-                        <a href="/goit-markup-hw-02/portfolio.html"
+                        <a class="link" href="/goit-markup-hw-02/portfolio.html"
                             >Portfolio</a
                         >
                     </li>
-                    <li><a href="Kontakt">Kontakt</a></li>
+                    <li><a class="link" href="Kontakt">Kontakt</a></li>
                 </ul>
             </nav>
             <div>
-                <ul>
+                <ul class="contact-links">
                     <li>
-                        <a href="mailto:info@devstudio.com"
+                        <a class="link" href="mailto:info@devstudio.com"
                             >info@devstudio.com</a
                         >
                     </li>
-                    <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+                    <li>
+                        <a class="link" href="tel:+48111111111"
+                            >+48 111 111 111</a
+                        >
+                    </li>
                 </ul>
             </div>
         </header>
         <main>
             <div>
                 <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-                <button type="button">Zamów usługę</button>
+                <button class="first-button" type="button">Zamów usługę</button>
             </div>
             <section>
-                <ul>
+                <ul class="list-item">
                     <li>
-                        <h3>LOREM IPSUM</h3>
+                        <h3 class="header-primary">LOREM IPSUM</h3>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Nam vel arcu sem. Sed non sodales dui. Interdum et
                         malesuada
                     </li>
                     <li>
-                        <h3>LOREM IPSUM</h3>
+                        <h3 class="header-primary">LOREM IPSUM</h3>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Nam vel arcu sem. Sed non sodales dui. Interdum et
                         malesuada
                     </li>
                     <li>
-                        <h3>LOREM IPSUM</h3>
+                        <h3 class="header-primary">LOREM IPSUM</h3>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Nam vel arcu sem. Sed non sodales dui. Interdum et
                         malesuada
                     </li>
                     <li>
-                        <h3>LOREM IPSUM</h3>
+                        <h3 class="header-primary">LOREM IPSUM</h3>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Nam vel arcu sem. Sed non sodales dui. Interdum et
                         malesuada
@@ -72,7 +81,7 @@
                 </ul>
             </section>
             <section>
-                <h2>Czym się zajmujemy</h2>
+                <h2 class="header-secondary">Czym się zajmujemy</h2>
                 <ul>
                     <li>
                         <img
@@ -101,7 +110,7 @@
                 </ul>
             </section>
             <section>
-                <h2>Nasz zespół</h2>
+                <h2 class="header-secondary">Nasz zespół</h2>
                 <ul>
                     <li>
                         <figure>
@@ -111,8 +120,9 @@
                                 width="270"
                                 height="260"
                             />
-                            <figcaption>
-                                <span>John Doe</span>Product Designer
+                            <figcaption class="description">
+                                <span class="name">John Doe</span>Product
+                                Designer
                             </figcaption>
                         </figure>
                     </li>
@@ -124,8 +134,9 @@
                                 width="270"
                                 height="260"
                             />
-                            <figcaption>
-                                <span>John Doe</span>Frontend Developer
+                            <figcaption class="description">
+                                <span class="name">John Doe</span>Frontend
+                                Developer
                             </figcaption>
                         </figure>
                     </li>
@@ -137,8 +148,8 @@
                                 width="270"
                                 height="260"
                             />
-                            <figcaption>
-                                <span>John Doe</span>Marketing
+                            <figcaption class="description">
+                                <span class="name">John Doe</span>Marketing
                             </figcaption>
                         </figure>
                     </li>
@@ -150,8 +161,8 @@
                                 width="270"
                                 height="260"
                             />
-                            <figcaption>
-                                <span>John Doe</span>UI Designer
+                            <figcaption class="description">
+                                <span class="name">John Doe</span>UI Designer
                             </figcaption>
                         </figure>
                     </li>
@@ -160,14 +171,22 @@
         </main>
         <footer>
             <ul>
-                <li><a href="WebStudio">WebStudio</a></li>
+                <li class="logo">
+                    <a class="link" href="WebStudio"
+                        ><span class="highlight">Web</span>Studio</a
+                    >
+                </li>
                 <li>
                     <address>m. Warszawa, Aleje Jerozolimskie 21</address>
                 </li>
-                <li>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <li class="contact-links">
+                    <a class="link" href="mailto:info@devstudio.com"
+                        >info@devstudio.com</a
+                    >
                 </li>
-                <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+                <li class="contact-links">
+                    <a class="link" href="tel:+48111111111">+48 111 111 111</a>
+                </li>
             </ul>
         </footer>
     </body>
