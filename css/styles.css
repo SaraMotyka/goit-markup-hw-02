@@ -26,13 +26,13 @@ body {
 .link {
     text-decoration: none;
 }
-.nav-items > .nav-items:hover,
+
 .nav-items:focus,
 .nav-items:active {
     color: var(--first-color);
 }
 
-.nav-items {
+.nav-items > .nav-items:hover {
     font-family: "Roboto";
     font-weight: 500;
     font-size: 14px;
@@ -45,7 +45,7 @@ body {
     color: var(--first-color);
 }
 
-.contact-links {
+.contact-links > .contact-links:hover {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
@@ -66,8 +66,10 @@ h1 {
 .first-button > .first-button:hover,
 .first-button:focus,
 .first-button:active {
-    color: var(--first-color);
     cursor: pointer;
+}
+.first-button {
+    background-color: var(--first-color);
 }
 
 .list-item {
