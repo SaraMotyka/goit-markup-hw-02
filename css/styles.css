@@ -11,6 +11,7 @@ body {
     --fourth-color: #ffffff;
     --fifth-color: #2f303a;
     --sixth-color: #f5f4fa;
+    --seventh-color: #212121;
 }
 
 .logo {
@@ -22,6 +23,12 @@ body {
 }
 .highlight {
     color: var(--first-color);
+}
+.studio-one {
+    color: #000000;
+}
+.studio-two {
+    color: #ffffff;
 }
 .link {
     text-decoration: none;
@@ -44,7 +51,6 @@ body {
 .contact-links:active {
     color: var(--first-color);
 }
-
 .contact-links > .contact-links:hover {
     font-family: Roboto;
     font-size: 14px;
@@ -62,15 +68,13 @@ h1 {
     color: var(--fourth-color);
     background-color: var(--fifth-color);
 }
-
+.first-button:hover,
 .first-button:focus,
 .first-button:active {
-    cursor: pointer;
-}
-.first-button > .first-button:hover {
     background-color: var(--first-color);
     color: var(--fourth-color);
     border: none;
+    cursor: pointer;
 }
 
 .list-item {
@@ -106,4 +110,29 @@ h1 {
     font-weight: 500;
     line-height: 1.18;
     color: var(--second-color);
+}
+
+.filters:focus,
+.filters:active {
+    color: var(--fourth-color);
+    background-color: var(--first-color);
+}
+
+.filters > .filters:hover {
+    color: var(--second-color);
+    background-color: var(--sixth-color);
+    cursor: pointer;
+}
+.foto-description {
+    color: var(--third-color);
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 1.8;
+}
+.project-name {
+    color: var(--seventh-color);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
 }
