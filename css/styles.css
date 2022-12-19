@@ -39,7 +39,7 @@ body {
     line-height: 1.14;
     color: var(--second-color);
 }
-.contact-links > .contact-links:hover,
+
 .contact-links:focus,
 .contact-links:active {
     color: var(--first-color);
@@ -63,13 +63,14 @@ h1 {
     background-color: var(--fifth-color);
 }
 
-.first-button > .first-button:hover,
 .first-button:focus,
 .first-button:active {
     cursor: pointer;
 }
-.first-button {
+.first-button > .first-button:hover {
     background-color: var(--first-color);
+    color: var(--fourth-color);
+    border: none;
 }
 
 .list-item {
